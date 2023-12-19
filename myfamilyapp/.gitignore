@@ -1,0 +1,22 @@
+# Ignore virtual environment
+venv/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Django migrations
+*.sqlite3
+db.sqlite3
+*.pyc
+__pycache__/
+migrations/
+
+# Ignore local settings
+*.env
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
